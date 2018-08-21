@@ -1,0 +1,93 @@
+:root{
+    
+    --font:1px;
+   --relative:relative;
+   --absolute:absolute;
+    --all:{
+        position:absolute;
+        width:100%;
+        height:100%;
+    }
+    --logo:{
+        position: absolute;
+        z-index: 2;
+        top:50px;
+    }
+    --bottom:{
+        position: absolute;
+        z-index: 2;
+    }
+    --top:{
+        position: absolute;
+        z-index: 10;
+        margin-top:14.7%;
+        margin-left:41%;
+    }
+    @custom-media --only-medium-screen (width >1536px) and (width <= 1920px);
+}
+body{
+    position:--relative;
+    & .main{
+        @apply --all;
+        min-width:calc(var(--font) *1536);
+        background-image: url("../../images/bg.png");  
+        & .logo{
+            @apply --logo;
+        }
+        & .login-img{
+           @apply --bottom;
+           width:100%;
+           min-width:calc(var(--font) *1536);
+           margin-top:10%;
+        }
+        & .login-form{
+            @apply --top;
+            top:0;
+           /* margin-top:-10%;*/
+            width:calc(var(--font) *321);
+            height: calc(var(--font) *247);
+            background:white;
+            border:5px #cad3df;
+            @media (--only-medium-screen) {
+                margin-top:15.5%;
+                width:calc(var(--font) *341);
+                height: calc(var(--font) *267);
+            }
+            & .login-p{
+                font-size:calc(var(--font) *22);
+                color:#444242;
+                text-align:center;
+                margin-top:calc(var(--font) *22);
+                margin-bottom:calc(var(--font) *22);
+                @media (--only-medium-screen) { 
+                    font-size:calc(var(--font) *22);
+                }
+            }
+            & input.ivu-input:focus{
+                outline:none;
+                border:1px solid #ff9000;
+            }
+            & input.ivu-input:hover{
+                outline: none;
+                border:1px solid #ff9000;
+            }
+            & .login-input{
+                display: block;
+                margin:0 auto;
+                width:calc(var(--font) *299);
+                height:calc(var(--font) *43);
+            }
+            & .input1{
+                margin-top:calc(var(--font) *(-10));
+            }
+            & .login-btn{
+                width:calc(var(--font) *299);
+                background-color:#ff9000;
+                border:1px #ff9000;
+                display: block;
+                margin:0 auto;
+                margin-top:calc(var(--font) *(-10));
+            }
+        }
+    }
+}

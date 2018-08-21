@@ -1,0 +1,17 @@
+:root{
+	--max:{
+		position:relative;
+		top:-15px;
+		left:200px;
+	}
+	--implement:{
+		position: relative;
+		top:15px;
+	}
+}
+.checkbox{
+	@apply --implement;
+}
+.maxTask{
+	@apply --max;
+}

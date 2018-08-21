@@ -1,0 +1,21 @@
+ .vertical-center-modal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.vertical-center-modal  .ivu-modal{
+      top: 0;
+}
+.password .ivu-form-item-label{
+	padding-right:10px;
+}
+.newButton,.deleteButton,.refreshButton{
+	float:right;
+	margin-left:10px;
+}
+.vertical-center-modal .ivu-modal-header{
+	background:#f8f8f9;
+}
+.newBtn{
+	margin-top:15px;
+}

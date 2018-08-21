@@ -1,0 +1,129 @@
+.layout{
+    border:0;
+    border: 1px solid #d7dde4;
+    position: absolute;
+    border-radius: 4px;
+    overflow: hidden;
+    top:0;
+    bottom:0;
+    width:100%;
+}
+.ivu-layout-header{
+    padding:0;
+    background: url('../../images/header.png');
+}
+.layout-logo{
+    width:40px;
+    height: 30px;
+    border-radius: 3px;
+    float: left;
+    position: relative;
+    left:15px;
+  /*  top:12px;*/
+    background:url('../../images/logos.png');
+}
+.title{
+    height:50px;
+    font-family: '微软雅黑';
+    font-weight:540;
+    line-height: 50px;
+    color:#090909;
+    margin-top:-2px;
+    font-size:20px;
+    display:block;
+    margin-left:18px;
+}
+.layout-nav{
+    width: 210px;
+    margin: 0 auto;
+    margin-right: 20px;
+    float: right;
+}
+.ivu-menu-item{
+    font-size:16px;
+}
+.ivu-layout{
+    height:100%;
+}
+.ivu-menu-horizontal{
+    height:50px;
+    display:-webkit-box;
+    display: box;
+    display: -moz-box;
+    display: -ms-box;
+    -webkit-box-align:center;
+    -moz-box-align:center;
+    -ms-box-align:center;
+    box-align:center;
+  background: url('../../images/header.png');
+  position:relative;
+}
+.layout-nav{
+    position: absolute;
+    right:0px;
+   /* left:1450px;*/
+    height:50px;
+    min-left:1000px;
+}
+.ivu-layout-sider-children{
+    width:282px;
+    background:#4a4949;
+}
+ul.ivu-menu.ivu-menu-light.ivu-menu-vertical{
+    margin-top:40px;
+}
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu-active, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover{
+    color:white;
+    border:none;
+    height:50px;
+    line-height: 50px;
+}
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu{
+    color:white;
+    height:50px;
+    line-height: 50px;
+}
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item{
+    color:white;
+}
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item:hover{
+    color:#b81d23;
+    border-left:7px solid #b81d23;
+}
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu){
+    color:#b81d23;
+    border-right:none;
+    background:#eeeeee;
+    position:relative;
+    border-left:7px solid #b81d23;
+}
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item:active{
+    border-left:7px solid #b81d23;
+    border-right:none;
+}
+.ivu-menu-vertical .ivu-menu-item, .ivu-menu-vertical .ivu-menu-submenu-title{
+    padding-left: 46px;
+}
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+   width:23px;
+   height:23px;
+   /*color:white;*/
+}
+.ivu-layout-sider{
+    width:282px !important;
+    min-width: 282px !important;
+}
+.ivu-layout-sider-children{
+    border-right:1px solid #eeeeee;
+}
+.icon {
+   width:23px;
+   height:23px;
+   vertical-align: middle;
+   fill: currentColor;
+   overflow: hidden;
+}

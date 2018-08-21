@@ -1,0 +1,91 @@
+<style>
+	@import './volume.css';
+</style>
+<template>
+	<Col span="24" class="demo-tabs-style1" style="background: #e3e8ee;padding:16px;">
+	 <Tabs type="card" :animated="false" @on-click="click">
+            	<TabPane v-for="tab in tabList" :label="tab.title" :name="tab.title">
+            		<Content  :columns="columns" :show="show"></Content>
+            	</TabPane>
+        </Tabs>
+        </Col>
+</template>
+<script>
+	import Content from './content.vue';
+	export default{
+		data(){
+			return{
+				tabList:[{
+					title:'介质池'
+				},{
+					title:'介质'
+				}],
+				columns:[{
+						title:'介质池名称',
+						key:'name'
+					},{
+						title:'介质数量',
+						key:'number'
+					},{
+						title:'类型',
+						key:'type'
+					},{
+						title:'保留周期',
+						key:'time'
+					},{
+						title:'覆盖周期',
+						key:'overTime'
+					}],
+					show:'介质池'
+			}
+		},
+		components:{
+			Content
+		},
+		methods:{
+			click:function(name){
+				if(name=='介质池'){
+					this.columns=[{
+						title:'介质池名称',
+						key:'name'
+					},{
+						title:'介质数量',
+						key:'number'
+					},{
+						title:'类型',
+						key:'type'
+					},{
+						title:'保留周期',
+						key:'time'
+					},{
+						title:'覆盖周期',
+						key:'overTime'
+					}];
+					this.show='介质池'
+				}
+				if(name=='介质'){
+					this.columns=[{
+						title:'Barcode',
+						key:'barcode'
+					},{
+						title:'介质名称',
+						key:'name'
+					},{
+						title:'介质池',
+						key:'pool'
+					},{
+						title:'已使用大小',
+						key:'used'
+					},{
+						key:'lastTime',
+						title:'最后写入时间'
+					},{
+						title:'状态',
+						key:'state'
+					}];
+					this.show='介质';
+				}
+			}
+		}
+	}
+</script>

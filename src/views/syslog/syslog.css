@@ -1,0 +1,29 @@
+:root {
+	--border: {
+		border-left: none;
+		border-right: none;
+	}
+}
+.ivu-table-wrapper {
+	/*@apply --border;*/
+}
+
+.sys-header {
+	background-color: #F3F3F3;
+	padding: 30px;
+	border-radius: 5px;
+	border: dashed 1px #FB784D;
+	height: 90px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	min-width: 1000px;
+}
+
+.sys-header span {
+	margin: 0 10px 0 20px;
+}
+
+ .lr {
+	float: right;
+	
+}

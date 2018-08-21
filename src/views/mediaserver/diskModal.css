@@ -1,0 +1,47 @@
+:root{
+	--font:1px;
+	--min:{
+		position:relative;
+		top:-56px;
+		left:260px;
+	}
+	--radio:{
+		position:relative;
+		top:-60px;
+	}
+	--document:{
+		position: relative;
+		top:0px;
+	}
+	--word:{
+		position: relative;
+		left:230px;
+		top:-30px;
+	}
+}
+.max{
+	width:calc(var(--font) * 250);
+	display:inline-block;
+}
+.min{
+	& .ivu-form-item-content{
+		width:calc(var(--font)*250);
+		display:inline-block;
+		@apply --min;
+	}
+	& .ivu-form-item-label{
+		display:inline-block;
+		@apply --min;
+	}
+}
+.document{
+	& .ivu-form-item-content{
+		@apply --radio;
+	}
+}
+.caption{
+	@apply --word;
+	& .ivu-form-item-content{
+		@apply --document;
+	}
+}

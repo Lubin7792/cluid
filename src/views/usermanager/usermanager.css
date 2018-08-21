@@ -1,0 +1,29 @@
+.ivu-layout-content{
+	position:relative;
+}
+.ivu-menu-horizontal{
+	height:50px !important;
+}
+.table{
+	position:absolute;
+	width:83%;
+}
+.row1{
+	top:-9px;
+}
+.row2{
+	top:7px;
+}
+.rowTable td{
+	cursor:pointer;
+}
+tr .ivu-table-row{
+	background:green;
+}
+.show{
+	display: block;
+}
+.hidden{
+	visibility: hidden;
+}
+

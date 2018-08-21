@@ -1,0 +1,46 @@
+:root{
+	--left:left;
+	--right:right;
+	--font:1px;
+	--relative:relative;
+	--absolute:absolute;
+}
+.mysql{
+	& .ivu-form-item-content{
+		display: inline-block;
+	}
+	& input{
+		border-radius: calc(var(--font) *5);
+    		border: 1px solid gray;
+	}
+	& .ivu-form-item{
+		display: inline-block;
+		margin-bottom:calc(var(--font)*15);
+	}
+	& .mysql-password{
+		width:calc(var(--font)*162);
+		margin-left:calc(var(--font)*23);
+	}
+	& .mysql-path{
+		width:calc(var(--font)*372);
+	}
+	& .mysql-btn{
+		& .ivu-modal-header{
+			border-bottom:none;
+		}
+		& .ivu-modal-body{
+			display: none;
+		}
+		& .ivu-modal-footer{
+			border-top:none;
+		}
+	}
+	& .mysql-table{
+		margin-top:calc(var(--font)*15.5);
+		& .mysqlInstance{
+			max-height:185px;
+			overflow: auto;
+		}
+	}
+	
+}

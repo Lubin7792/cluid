@@ -1,0 +1,16 @@
+.basic-form{
+	width:495px;
+}
+.basic-form .ivu-form-item{
+	float: right;
+}
+.basic-form input{
+	width:390px;
+}
+.special{
+	float: right;
+}
+.special label{
+	padding-right:0px !important;
+	margin-left:-12px;
+}

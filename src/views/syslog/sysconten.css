@@ -1,0 +1,46 @@
+.sys-conten .ivu-table-wrapper {
+  border-color: #FFF;
+  position: inherit !important;
+}
+
+.sys-conten .row {
+  border-top: 1px solid #fd7549;
+  border-bottom: 2px solid #fd7549;
+}
+
+.sys-conten .ivu-table-header {
+  border-bottom: 2xp solid #fd7549;
+}
+
+.sys-conten .ivu-table td {
+  border-bottom-color: #FFF;
+}
+
+.sysdetails {
+  height: 400px;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none
+}
+
+.sysdetails li {
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 16px;
+  margin-left: 24px !important;
+}
+
+.sysdetails span {
+  margin-right: 12px;
+  font-size: 0.8rem;
+}
+
+.sysdetails .ivu-input {
+  height: 28px;
+  background-color: #e9ecec;
+}
+

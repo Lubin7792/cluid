@@ -1,0 +1,24 @@
+	:root{
+        --font:1px;
+    }
+    .demo-tabs-style1{
+        & .ivu-tabs-card{
+            & .ivu-tabs-content{
+/*                height: calc(var(--font)*120);*/
+                margin-top: calc(var(--font)*(-16));
+            }
+            & .ivu-tabs-tabpane{
+                background: #fff;
+                padding: calc(var(--font)*16);
+            }
+            & .ivu-tabs-bar .ivu-tabs-tab-active{
+                border-color: #fff;
+            }
+        }
+        & .ivu-tabs.ivu-tabs-card{
+            & .ivu-tabs-bar .ivu-tabs-tab{
+                border-color: transparent;
+            }
+        }
+    }
+   

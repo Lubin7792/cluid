@@ -1,0 +1,52 @@
+:root{
+	--left:left;
+	--right:right;
+	--font:1px;
+	--relative:relative;
+	--absolute:absolute;
+}
+.vmware{
+	& .ivu-form-item-content{
+		display: inline-block;
+	}
+	& input{
+		border-radius: calc(var(--font) *5);
+    		border: 1px solid gray;
+	}
+	& .ivu-form-item{
+		display: inline-block;
+		margin-bottom:calc(var(--font)*15);
+	}
+	& .vmware-password{
+		margin-left:calc(var(--font)*23);
+		width:calc(var(--font)*162);
+	}
+	& .user-input{
+		width:calc(var(--font)*162);
+		margin-left:calc(var(--font)*12);
+	}
+	& .vmware-ssl{
+		margin-left:calc(var(--font)*8);
+		width:calc(var(--font)*410);
+	}
+	& .vmware-btn{
+		/*margin-top:calc(var(--font)*11);*/
+		& .ivu-modal-header{
+			border-bottom:none;
+		}
+		& .ivu-modal-body{
+			display: none;
+		}
+		& .ivu-modal-footer{
+			border-top:none;
+		}
+	}
+	& .vmware-table{
+		margin-top:calc(var(--font)*15.5);
+		& .vmwareTable{
+			max-height:185px;
+			overflow: auto;
+		}
+	}
+	
+}
