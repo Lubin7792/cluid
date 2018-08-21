@@ -48,7 +48,7 @@ import axios from 'axios'
 export default {
   data () {
             return {
-                modal1: true,
+                modal1: false,
                 detailsData: {},
                 tableData1: this.logfile(),
                 tableColumns1: [

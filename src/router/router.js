@@ -12,7 +12,13 @@ const Routers = [
     	path:'/navigation',
     	name:'navigation',
     	component:()=>import('../views/navigation/navigation.vue')
-    },{
+    },  {
+        path: '/',
+        component: Navigation,
+        children: [
+            { path: 'index', name: 'index', component: () => import('../views/index/index.vue') }]
+    },
+    {
         path:'/',
         component:Navigation,
         children: [

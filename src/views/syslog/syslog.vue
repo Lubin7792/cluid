@@ -1,43 +1,6 @@
 <style>
 @import './syslog.css';
-.sys-conten .ivu-table td,td {
-  border-bottom:none;
-}
-.sys-conten .ivu-table-header th{
-  border-bottom: 2px solid #fd7549;
-  height: 50px;
-  background-color: #fff;
-}
-.sys-conten .ivu-table-tbody tr:nth-child(even){
 
-background-color: #f9efe9;
-
-}
-.sys-conten .ivu-table-tbody td{
-  background-color: transparent;
-}
-.sys-conten .ivu-table-tbody tr:hover{
-  background-color: azure;
-}
-.sys-one .ivu-table-cell p{
-    color:#666666;
-}
-.sys-two .ivu-table-cell p{
-    color:#fd7549;
-}
-.sys-three .ivu-table-cell p{
-    color:#b41c21;
-}
-.sysdesc .ivu-table-cell {
-  width: 300px;
-  height: 20px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-.sysmodal .ivu-modal-footer {
-  border-top: none;
-}
 </style>
 <template>
   <div>
