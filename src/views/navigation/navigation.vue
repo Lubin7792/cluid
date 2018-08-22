@@ -27,7 +27,7 @@
                     <Layout>
                         <Sider hide-trigger :style="{background: '#fff'}">
                             <Menu active-name="1-2" :style="{background:'#4a4949',height:'100%'}" width="282px" :open-names="['1']" @on-select="changeUrl">
-                                <MenuItem name="index" font-size="16px">
+                                <MenuItem name="home" font-size="16px">
                                 <!--  <Icon type="ios-home"></Icon> -->
                                 <svg class="icon" aria-hidden="true">
                                     <use xlink:href="#icon-home"></use>

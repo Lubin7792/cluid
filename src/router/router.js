@@ -16,7 +16,7 @@ const Routers = [
         path: '/',
         component: Navigation,
         children: [
-            { path: 'index', name: 'index', component: () => import('../views/index/index.vue') }]
+            { path: 'home', name: 'home', component: () => import('../views/home/home.vue') }]
     },
     {
         path:'/',
