@@ -27,23 +27,23 @@
 	float: right;
 	
 }
-.sys-conten .ivu-table td,td {
+.sys-content .ivu-table td,td {
   border-bottom:none;
 }
-.sys-conten .ivu-table-header th{
+.sys-content .ivu-table-header th{
   border-bottom: 2px solid #fd7549;
   height: 50px;
   background-color: #fff;
 }
-.sys-conten .ivu-table-tbody tr:nth-child(even){
+.sys-content .ivu-table-tbody tr:nth-child(even){
 
 background-color: #f9efe9;
 
 }
-.sys-conten .ivu-table-tbody td{
+.sys-content .ivu-table-tbody td{
   background-color: transparent;
 }
-.sys-conten .ivu-table-tbody tr:hover{
+.sys-content .ivu-table-tbody tr:hover{
   background-color: azure;
 }
 .sys-one .ivu-table-cell p{

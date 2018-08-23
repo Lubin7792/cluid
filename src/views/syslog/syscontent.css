@@ -1,18 +1,18 @@
-.sys-conten .ivu-table-wrapper {
+.sys-content .ivu-table-wrapper {
   border-color: #FFF;
   position: inherit !important;
 }
 
-.sys-conten .row {
+.sys-content .row {
   border-top: 1px solid #fd7549;
   border-bottom: 2px solid #fd7549;
 }
 
-.sys-conten .ivu-table-header {
+.sys-content .ivu-table-header {
   border-bottom: 2xp solid #fd7549;
 }
 
-.sys-conten .ivu-table td {
+.sys-content .ivu-table td {
   border-bottom-color: #FFF;
 }
 

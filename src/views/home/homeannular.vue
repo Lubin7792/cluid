@@ -1,6 +1,21 @@
+<style>
+</style>
+
 <template>
-    <div id="charts1">
-        <div id="myChart1" :style="{width:'500px',height:'300px'}"></div> 
+    <div class="home-left">
+        <div class="home-title">
+          <p> </p>
+          <i>备份任务量</i>
+          <em>55</em>    
+        </div>
+        <div class="home-content">
+          <p>备份数据量</p>
+            <div id="myChart1"  :style="{width:'500px',height:'300px'}" ></div> 
+             <p> {{lubin}}</p>
+             <div class="home-details">
+
+          </div>
+        </div>
     </div>
 </template>
 <script >
@@ -13,10 +28,14 @@ require("echarts/lib/chart/pie");
 require("echarts/lib/component/tooltip");
 require("echarts/lib/component/title");
 export default {
+  props: {
+    lubin: String
+  },
   name: "hello",
   data() {
     return {
-      msg: "Welcome to Your Vue.js App"
+      msg: "Welcome to Your Vue.js App",
+      mss: ""
     };
   },
   mounted() {
@@ -28,11 +47,6 @@ export default {
       let myChart = echarts.init(document.getElementById("myChart1"));
       // 绘制图表
       myChart.setOption({
-        title: {
-          text: "某站点用户访问来源",
-          subtext: "纯属虚构",
-          x: "center"
-        },
         legend: {
           orient: "vertical",
           x: "left",
@@ -42,7 +56,7 @@ export default {
           {
             name: "访问来源",
             type: "pie",
-            radius: ["50%", "70%"],
+            radius: ["65%", "75%"],
             avoidLabelOverlap: false,
             label: {
               normal: {
@@ -66,7 +80,8 @@ export default {
               "#fff",
               "#F67",
               "#fff",
-              "#Ff7"
+              "#Ff7",
+              "#fff"
             ],
             labelLine: {
               normal: {
@@ -75,14 +90,15 @@ export default {
             },
             data: [
               { value: 335, name: "直接访问" },
-              { value: 50, name: "" },
+              { value: 20, name: "" },
               { value: 310, name: "邮件营销" },
-              { value: 50, name: "" },
+              { value: 20, name: "" },
               { value: 234, name: "联盟广告" },
-              { value: 50, name: "" },
+              { value: 20, name: "" },
               { value: 135, name: "视频广告" },
-              { value: 50, name: "" },
-              { value: 1548, name: "搜索引擎" }
+              { value: 20, name: "" },
+              { value: 1548, name: "搜索引擎" },
+              { value: 20, name: "" }
             ]
           }
         ]

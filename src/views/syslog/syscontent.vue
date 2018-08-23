@@ -1,9 +1,9 @@
 <style scoped>
-@import './sysconten.css';
+@import './syscontent.css';
 
 </style>
 <template>
-    <div class="sys-conten">
+    <div class="sys-content">
         <div class="row">
             <Table highlight-row :data="tableData1" :columns="tableColumns1" :row-class-name="rowClassName" @on-row-click="onClick"></Table>
         </div>

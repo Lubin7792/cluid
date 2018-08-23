@@ -1,0 +1,56 @@
+.home-title {
+  display: inline-block;
+  padding: 30px 34px;
+  width: 470px;
+  height: 156px;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  margin-bottom: 46px;
+  box-shadow: 3px 3px 3px #e4e4e4;
+}
+.home-title p {
+  float: left;
+  display: inline-block;
+  width: 105px;
+  height: 105px;
+  padding: 20px;
+  background: #ff8863 url(../../images/hometask.png) no-repeat center center;
+  border-radius: 5px;
+  margin-right: 80px;
+}
+.home-title i {
+  font-style: normal;
+  display: inline-block;
+  width: 200px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #090909;
+  margin-bottom: 54px;
+}
+.home-title em {
+  font-style: normal;
+  font-weight: bolder;
+  display: inline-block;
+  font-size: 30px;
+  line-height: 30px;
+  color: #2f3b4c;
+}
+
+.home-content {
+  display: inline-block;
+  width: 470px;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  margin-bottom: 46px;
+  box-shadow: 3px 3px 3px #e4e4e4;
+}
+.home-content p{
+  padding: 25px 31px;
+  font-size: 20px;
+  color: #333333;
+  
+}
+.home-details{
+  border-top: 1px solid #e4e4e4;
+  height: 100px;;
+}

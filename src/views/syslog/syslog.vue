@@ -19,14 +19,14 @@
         <Button type="warning" @click="refresh">刷新</Button>
       </div>
     </div>
-    <sysconten ref="sysconten"></sysconten>
+    <syscontent ref="syscontent"></syscontent>
   </div>
 
 </template>
 <script>
 import axios from 'axios'
 import util from '../../libs/util.js'
-import Sysconten from './sysconten.vue'
+import Syscontent from './syscontent.vue'
 export default {
   data() {
     return {
@@ -49,11 +49,11 @@ export default {
     //     console.log(obj)})
     // }
     refresh() {
-      this.$refs.sysconten.logfile()
+      this.$refs.syscontent.logfile()
     }
   },
   components: {
-    Sysconten
+    Syscontent
   }
 }
 </script>

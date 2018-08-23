@@ -1,6 +1,12 @@
+<style>
+@import './home.css';
+
+</style>
+
 <template>
+
   <div>
-   <homean></homean> 
+   <homean lubin="mss"></homean> 
     <homepie></homepie> 
   </div>
 
@@ -10,6 +16,7 @@
 import homepie from "./homepie.vue";
 import homean from "./homeannular.vue";
 export default {
+ 
   components: {
     homepie,
     homean
