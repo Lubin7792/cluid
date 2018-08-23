@@ -4,16 +4,23 @@
 <template>
     <div class="home-left">
         <div class="home-title">
-          <p> </p>
+          <p > </p>
           <i>备份任务量</i>
           <em>55</em>    
         </div>
         <div class="home-content">
-          <p>备份数据量</p>
+          <p class="home-con-tit">备份数据量</p>
             <div id="myChart1"  :style="{width:'500px',height:'300px'}" ></div> 
              <p> {{lubin}}</p>
              <div class="home-details">
-
+               <span class="home-capacity">
+                 98.856GB
+                 <p> 累计完成备份数据量</p>
+               </span>
+               <span class="home-range">
+                50%
+                <p>同上周相比较</p>
+               </span>
           </div>
         </div>
     </div>

@@ -1,7 +1,26 @@
 <template>
-    <div id="charts2">
-        <div id="myChart2" :style="{width:'500px',height:'300px'}"></div> 
-    </div>
+  <div class="home-middle">
+     <div class="home-title">
+          <p > </p>
+          <i>设备任务量</i>
+          <em>55</em>    
+        </div>
+        <div class="home-content">
+          <p class="home-con-tit">设备数据量</p>
+           <div id="myChart2" :style="{width:'500px',height:'300px'}"></div> 
+             <p> {{lubin}}</p>
+             <div class="home-details">
+               <span class="home-capacity">
+                 98.856GB
+                 <p> 累计完成备份数据量</p>
+               </span>
+               <span class="home-range">
+                50%
+                <p>同上周相比较</p>
+               </span>
+          </div>
+        </div>
+  </div>
 </template>
 <script >
 // 引入基本模板
@@ -28,12 +47,6 @@ export default {
       let myChart = echarts.init(document.getElementById("myChart2"));
       // 绘制图表
       myChart.setOption({
-        title: {
-          text: "某站点用户访问来源",
-          subtext: "纯属虚构",
-          x: "center"
-        },
-        
         legend: {
           orient: "vertical",
           left: "left",
