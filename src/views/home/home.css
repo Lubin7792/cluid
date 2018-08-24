@@ -1,8 +1,26 @@
 .home-left,.home-middle{
   width: 470px;
   float: left;
-  margin-left: 80px;
 
+
+}
+.home-middle .home-content{
+  position: relative;
+}
+.home-middle .home-con-tit{
+  position: absolute;
+}
+.home-left{
+  margin-left: 10px;
+}
+.home-right{
+  display: inline-block;
+  margin-right:29px; 
+  width: 470px;
+}
+
+.home-middle{
+  margin: 0 60px;
 }
 .home-title {
   display: inline-block;
@@ -45,6 +63,7 @@
 .home-content {
   display: inline-block;
   width: 470px;
+  height: 440px;
   border: 1px solid #e4e4e4;
   border-radius: 5px;
   margin-bottom: 46px;
@@ -85,4 +104,12 @@
 .home-details .home-range p {
   color: #818181;
   font-size: 16px;
+}
+.home-right .home-details{
+  height: 116px;
+  width: 100%;
+}
+
+.home-state{
+  height: 244px;
 }

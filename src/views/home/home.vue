@@ -6,20 +6,23 @@
 <template>
 
   <div>
-   <homean lubin="mss"></homean> 
-    <homepie></homepie> 
+   <hometask ></hometask> 
+    <homesuccess></homesuccess> 
+   <homefail></homefail>  
   </div>
 
 </template>
 
 <script>
-import homepie from "./homepie.vue";
-import homean from "./homeannular.vue";
+import homesuccess from "./homesuccess.vue";
+import hometask from "./hometask.vue";
+import homefail from './homefail.vue'
 export default {
  
   components: {
-    homepie,
-    homean
+    homesuccess,
+    hometask,
+    homefail
   }
 };
 </script>
