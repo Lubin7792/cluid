@@ -15,7 +15,6 @@
 }
 .home-right{
   display: inline-block;
-  margin-right:29px; 
   width: 470px;
 }
 
@@ -41,6 +40,12 @@
   background: #ff8863 url(../../images/hometask.png) no-repeat center center;
   border-radius: 5px;
   margin-right: 80px;
+}
+.home-middle .home-title p{
+  background-image: url(../../images/homesuccess.png)
+}
+.home-right .home-title p{
+  background-image: url(../../images/homeerror.png)
 }
 .home-title i {
   font-style: normal;
@@ -109,7 +114,46 @@
   height: 116px;
   width: 100%;
 }
-
+.home-right .home-title em{
+  color: #e0383a;
+}
 .home-state{
   height: 244px;
+  font-size: 16px;
+  line-height: 36px;
+}
+.home-setup{
+ padding-top: 30px;
+ text-align: center;
+}
+.home-setup p{
+  text-align: left;
+  display: inline-block;
+  height: 42px;
+  width: 184px;
+  color: #ffffff;
+  font-size:20px;
+  line-height: 40px;
+  background: url(../../images/homesetup.png) no-repeat center center;
+  padding-left: 40px;
+  
+}
+.home-war {
+   box-shadow: 3px 3px 3px #e4e4e4;
+   padding: 10px;
+   border: 1px solid #e4e4e4;
+   margin: 0 10px;
+}
+.home-war .ivu-btn-small{
+  background:#de7149 url(../../images/homesee.png) no-repeat center center;
+}
+.home-war .ivu-table-wrapper{
+  width: 1503px;
+}
+.home-war .war-tit{
+  font-size: 16px;
+  color: #090909;
+  line-height: 36px;
+  padding-bottom:10px;
+  padding-left:5px;
 }
