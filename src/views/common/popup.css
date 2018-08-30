@@ -1,0 +1,27 @@
+.sysmodal .ivu-modal-footer {
+  border-top: none;
+}
+.sysmodal .ivu-modal-header{
+	background-color: #fd7549;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.sysmodal .ivu-modal-close  .ivu-icon-ios-close-empty{
+	color: #fff;
+}
+.sysmodal .ivu-modal-header-inner{
+	color: #fff;
+}
+.sysdetails {
+  height: 400px;
+}
+.sysdetails span {
+  margin-right: 12px;
+  font-size: 0.8rem;
+}
+
+.sysdetails .ivu-input {
+  height: 28px;
+  background-color: #e9ecec;
+}
+
